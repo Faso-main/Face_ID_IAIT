@@ -15,7 +15,7 @@
 - Ограниченное количество точек (68)
 
 **Модель**:  
-[dlib 68-face-landmarks model](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)  
+[dlib 68-face-landmarks model](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)  
 **Документация**:  
 [Official dlib ASM documentation](http://dlib.net/face_landmark_detection_ex.cpp.html)
 
@@ -36,7 +36,7 @@
 - Менее стабильная работа при слабом освещении
 
 **Модель**:  
-[DRMF model for dlib](https://github.com/tzutalin/dlib-android/raw/master/data/shape_predictor_68_face_landmarks.dat)  
+[DRMF model for dlib](https://github.com/tzutalin/dlib-android/)  
 **Исследование**:  
 [DRMF Original Paper](https://ieeexplore.ieee.org/document/6130296)
 
@@ -57,9 +57,9 @@
 - Сложная интеграция (требует opencv-contrib)
 
 **Модель**:  
-[OpenCV LBF model](https://github.com/kurnianggoro/GSOC2017/raw/master/data/lbfmodel.yaml)  
+[OpenCV LBF model](https://github.com/kurnianggoro/GSOC2017)  
 **Документация**:  
-[OpenCV Facemark API](https://docs.opencv.org/4.x/dc/de0/classcv_1_1face_1_1FacemarkLBF.html)
+[OpenCV Facemark API](https://docs.opencv.org/4.x)
 
 ---
 
