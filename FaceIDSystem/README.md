@@ -18,6 +18,9 @@
 [dlib 68-face-landmarks model](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)  
 **Документация**:  
 [Official dlib ASM documentation](http://dlib.net/face_landmark_detection_ex.cpp.html)
+**Github examples**:  
+- https://github.com/YashGunjal/asm
+- https://github.com/YashGunjal/asm
 
 ---
 
