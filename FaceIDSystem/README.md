@@ -20,7 +20,7 @@
 [Official dlib ASM documentation](http://dlib.net/face_landmark_detection_ex.cpp.html)
 
 **Примеры github**:  
-- https://github.com/YashGunjal/asm
+- https://github.com/johnwmillr/ActiveShapeModels
 - https://github.com/YashGunjal/asm
 
 ---
