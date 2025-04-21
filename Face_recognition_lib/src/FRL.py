@@ -3,10 +3,10 @@ import cv2, os
 import numpy as np
 
 
-REG_IMG=os.path.join('Face_recognition_lib','src','img','reg_img.jpg')
+GALKIN1_IMG=os.path.join('Face_recognition_lib','src','img','Galkin2.jpg')
 
 try:
-    known_image = face_recognition.load_image_file(REG_IMG)
+    known_image = face_recognition.load_image_file(GALKIN1_IMG)
     known_encoding = face_recognition.face_encodings(known_image)[0]
 except IndexError:
     print("Не удалось найти лицо на изображении")
