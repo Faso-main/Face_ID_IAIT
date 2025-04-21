@@ -27,7 +27,8 @@ if os.path.exists(ENCODINGS_FILE) and os.path.exists(NAMES_FILE):
         known_face_encodings = []
         known_face_names = []
 
-if not known_face_encodings:
+# Corrected check for empty array
+if len(known_face_encodings) == 0:
     print(f"Загрузка известных лиц из директории: {IMGS_DIR}")
 
     if not os.path.exists(IMGS_DIR):
@@ -54,7 +55,7 @@ if not known_face_encodings:
             except Exception as e:
                 print(f"Ошибка обработки файла {filename}: {e}")
 
-    if not known_face_encodings:
+    if len(known_face_encodings) == 0: # Corrected check for empty list
         print("Ошибка: Не найдено известных лиц для сравнения. Проверьте директорию и изображения.")
         exit()
     else:
