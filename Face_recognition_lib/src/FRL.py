@@ -3,7 +3,7 @@ import cv2, os
 import numpy as np
 
 
-GALKIN1_IMG=os.path.join('Face_recognition_lib','src','img','Galkin2.jpg')
+GALKIN1_IMG=os.path.join('Face_recognition_lib','src','img','Galkin1.jpg')
 
 try:
     known_image = face_recognition.load_image_file(GALKIN1_IMG)
@@ -14,7 +14,7 @@ except IndexError:
 
 # Создаем массивы для известных лиц
 known_face_encodings = [known_encoding]
-known_face_names = ["Faso"]
+known_face_names = ["Galkin1"]
 
 # Инициализируем видеопоток
 video_capture = cv2.VideoCapture(0)
