@@ -43,6 +43,8 @@
 [DRMF model for dlib](https://github.com/tzutalin/dlib-android/)  
 **Исследование**:  
 [DRMF Original Paper](https://ieeexplore.ieee.org/document/6130296)
+**Ссылка на модель**
+[drmf](https://github.com/tzutalin/dlib-android/blob/master/data/shape_predictor_68_face_landmarks.dat)
 
 ---
 
