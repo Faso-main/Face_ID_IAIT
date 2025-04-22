@@ -3,7 +3,7 @@ import dlib
 import numpy as np
 
 
-MODEL_PATH=os.path.join('FaceIDSystem','src','shape_predictor_68_face_landmarks.dat')
+MODEL_PATH=os.path.join('FaceIDSystem','src','models','shape_predictor_68_face_landmarks.dat')
 REG_IMG=os.path.join('FaceIDSystem','src','img','reg_img.jpg')
 TEST_IMG=os.path.join('FaceIDSystem','src','img','test_img.jpg')
 OUTPUT_IMG=os.path.join('FaceIDSystem','src','img','output_asm.jpg')
