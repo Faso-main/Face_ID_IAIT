@@ -64,6 +64,8 @@
 [OpenCV LBF model](https://github.com/kurnianggoro/GSOC2017)  
 **Документация**:  
 [OpenCV Facemark API](https://docs.opencv.org/4.x)
+**Ссылка на модель**
+[lbfmodel](https://github.com/kurnianggoro/GSOC2017/blob/master/data/lbfmodel.yaml)
 
 ---
 
