@@ -6,7 +6,7 @@ import menpofit.aam
 import numpy as np
 
 
-IMG_PATH = os.path.join('src','AAM', 'img', 'Galkin2.jpg')
+IMG_PATH = os.path.join('Menpo', 'img', 'Galkin2.jpg')
 
 # 1 Конвертация в numpy array
 im = mio.import_image(IMG_PATH)
